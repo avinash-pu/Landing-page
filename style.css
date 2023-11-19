@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(100, 200, 100);
+    color: white;
+    padding: 5px;
+}
+
+.nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(253, 244, 244);
+    padding: 0 1rem;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('images/temple.jpeg') center/cover no-repeat ;
+    width: 1250px; height: 550px;
+    color:rgb(19, 220, 22);
+    
+    text-align: center;
+  border: 1rem;
+    padding:10px 50px 20px;
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 25rem;
+}
+
+.btn:hover {
+    background-color: #e68a00;
+}
+
+.destinations, .special-offers {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
